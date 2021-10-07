@@ -20,7 +20,7 @@ def create(size):
                     b1 = tk.Button(root, text=('#'), width=0, height=1, command=test)
                 else:
                     b1 = tk.Button(root, text=('#'), width=0, height=1, command=lambda: print('WINNER'))
-                print(b1)
+                print(b1) # ALSO PRINT TYPE TO TEST IT PLEASE DO THIS THANKS DO THIS NOW YES THANKS
                 b1.grid(column=i, row=f)
     
     root.mainloop()
